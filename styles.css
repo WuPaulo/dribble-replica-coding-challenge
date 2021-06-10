@@ -62,7 +62,10 @@ a {
 .headerBox,
 .aboutContainer,
 .down,
-.footerTop {
+.footerTop,
+.popularBar,
+.popularText,
+.dessertsTitle ul {
   display: flex;
 }
 
@@ -195,7 +198,6 @@ select {
 /* popular styling */
 
 .popularBar {
-  display: flex;
   justify-content: space-between;
 }
 
@@ -225,7 +227,6 @@ select {
 }
 
 .popularText {
-  display: flex;
   justify-content: space-between;
   background: white;
 }
@@ -248,7 +249,8 @@ select {
   margin: 0 auto;
 }
 
-.dessertsTitle {
+.dessertsTitle,
+.dessertsButton {
   text-align: center;
 }
 
@@ -261,7 +263,6 @@ select {
 }
 
 .dessertsTitle ul {
-  display: flex;
   justify-content: center;
   margin-bottom: 30px;
 }
@@ -286,10 +287,6 @@ select {
 .down {
   flex-direction: column;
   justify-content: flex-end;
-}
-
-.dessertsButton {
-  text-align: center;
 }
 
 /* footer styling */
@@ -400,6 +397,7 @@ button:focus {
     margin: 40px auto;
   }
 }
+
 @media (max-width: 576px) {
   header h1 {
     font-size: 1.2rem;
