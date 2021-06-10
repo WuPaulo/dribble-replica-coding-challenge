@@ -59,6 +59,11 @@ button {
   color: #4e5a2f;
 }
 
+button,
+a {
+  cursor: pointer;
+}
+
 button {
   font-weight: bold;
   padding: 10px 20px;
@@ -279,4 +284,16 @@ footer {
 
 .footerMiddle {
   align-self: flex-end;
+}
+
+/* hover states */
+
+a:hover,
+a:focus {
+  color: #4e5a2f;
+}
+
+button:hover,
+button:focus {
+  color: #000000;
 }
