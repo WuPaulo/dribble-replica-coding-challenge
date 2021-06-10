@@ -123,3 +123,53 @@ body {
   max-width: 100%;
   height: 100%;
 }
+
+/* desserts styling */
+
+.desserts {
+  margin: 100px auto;
+}
+
+.desserts h2 {
+  margin: 30px auto;
+}
+
+.dessertsButton {
+  margin: 0 auto;
+}
+
+.dessertsTitle {
+  text-align: center;
+}
+
+.dessertsTitle ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.dessertsTitle ul li {
+  margin: 0 30px;
+}
+
+.dessertsImageContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: auto;
+  grid-gap: 0px 10px;
+  padding: 30px 0 50px 0;
+}
+
+.dessertsImage img {
+  max-width: 100%;
+}
+
+.down {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.dessertsButton {
+  text-align: center;
+}
