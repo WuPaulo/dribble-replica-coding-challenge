@@ -15,6 +15,11 @@
       crossorigin="anonymous"
     />
     <link rel="shortcut icon" href="#" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,100&family=Playfair+Display:wght@400;500;600&family=Viaoda+Libre&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Coding Challenge</title>
   </head>
@@ -26,9 +31,9 @@
           <a href="#">Events</a>
           <a href="#">Reviews</a>
         </div>
-        <h2>test</h2>
+        <h2 class="highlight">LOGO</h2>
         <div class="navBarRight">
-          <p><span>Hotline:</span>(406) 555-0120</p>
+          <p><span>Hotline:</span><span class="bolded">(406) 555-0120</span></p>
           <button class="hamburger"><i class="fas fa-bars"></i></button>
         </div>
       </nav>
@@ -62,8 +67,8 @@
               <option value="">Number of guests</option>
             </select>
           </div>
-          <div>
-            <button>Apply Reservations</button>
+          <div class="headerButton">
+            <a href="#"><button>Apply Reservations</button></a>
           </div>
         </div>
       </div>
@@ -85,10 +90,11 @@
             </p>
             <p>
               saepe voluptates quis vitae in alias, libero culpa dicta earum.
-              Labore, enim.
+              Labore, enim. saepe voluptates quis vitae in alias, libero culpa
+              dicta earum. Labore, enim.
             </p>
             <div class="aboutButton">
-              <button>More About Us</button>
+              <a href="#"><button>More About Us</button></a>
             </div>
           </div>
         </div>
@@ -104,9 +110,16 @@
         <ul class="popularImages">
           <li>
             <img src="./assets/download (2).jpg" alt="" />
-            <div>
-              <h3>Cheese Pizza (12")</h3>
-              <h3>$110.00</h3>
+            <div class="popularText">
+              <div>
+                <h3>Cheese Pizza (12")</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h3 class="popularPrice">$110.00</h3>
             </div>
           </li>
           <li>
@@ -114,9 +127,16 @@
               src="./assets/slice-french-toast-white-background-two-slice-french-toast-white-background-164062960.jpg"
               alt=""
             />
-            <div>
-              <h3>Cheese Pizza (12")</h3>
-              <h3>$110.00</h3>
+            <div class="popularText">
+              <div>
+                <h3>Cheese Bread & Boild Egg</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h3 class="popularPrice">$110.00</h3>
             </div>
           </li>
           <li>
@@ -124,9 +144,14 @@
               src="./assets/turkey-sandwich-white-background-11622814.jpg"
               alt=""
             />
-            <div>
-              <h3>Cheese Pizza (12")</h3>
-              <h3>$110.00</h3>
+            <div class="popularText">
+              <div>
+                <h3>Creamy Sub Sandwich</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h3 class="popularPrice">$110.00</h3>
             </div>
           </li>
         </ul>
@@ -136,12 +161,12 @@
           <div class="dessertsTitle innerWrapper">
             <h2>Enjoy The Food Menu Whatever You Like</h2>
             <ul>
-              <li>Drinks</li>
-              <li class="highlight">Desserts</li>
-              <li>Itallian</li>
-              <li>Japanese</li>
-              <li>Mexican</li>
-              <li>Special Dishes</li>
+              <li><a href="#">Drinks</a></li>
+              <li><a href="#">Desserts</a></li>
+              <li><a href="#">Itallian</a></li>
+              <li><a href="#">Japanese</a></li>
+              <li><a href="#">Mexican</a></li>
+              <li><a href="#">Special Dishes</a></li>
             </ul>
           </div>
           <div class="dessertsImageContainer outerWrapper">
@@ -179,10 +204,35 @@
             </div>
           </div>
           <div class="dessertsButton">
-            <button>Vist Our Menu</button>
+            <a href="#"><button>Vist Our Menu</button></a>
           </div>
         </div>
       </section>
     </main>
+    <footer class="outerWrapper">
+      <div class="footerTop">
+        <div>
+          <h3>Get In Touch</h3>
+          <p class="highlight">Location</p>
+          <p>Alfred Syracuse 35 New York, USA</p>
+          <p class="highlight">Phone Call</p>
+          <p>+91 (629)555-0129, +91 (239) 555-0108</p>
+        </div>
+        <div class="footerMiddle">
+          <h2 class="highlight">LOGO</h2>
+          <p>Facebook | <span>Instagram</span> | Youtube</p>
+        </div>
+        <div>
+          <h3>For More Information</h3>
+          <p class="highlight">Email</p>
+          <p>Info@saltysquid.com</p>
+          <p class="highlight">For Booking</p>
+          <p>book@saltysquid.com</p>
+        </div>
+      </div>
+      <div class="footerBottom">
+        <p>Copyright 2021</p>
+      </div>
+    </footer>
   </body>
 </html>
