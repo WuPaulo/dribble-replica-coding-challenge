@@ -36,8 +36,10 @@
           <p><span>Hotline:</span><span class="bolded">(406) 555-0120</span></p>
           <a href="#"
             ><button aria-label="hamburger menu" class="hamburger">
-              <i class="fas fa-bars"></i></button
-          ></a>
+              <i aria-hidden="true" class="fas fa-bars"></i>
+              <span class="sr-only">Search</span>
+            </button></a
+          >
         </div>
       </nav>
       <div class="headerImageContainer outerWrapper">
@@ -53,22 +55,19 @@
         />
         <div class="headerBox innerWrapper">
           <div>
-            <p>When</p>
-            <label for="date">Choose a date</label>
+            <label for="date">When</label>
             <select name="" id="date">
               <option value="">05 June 2021</option>
             </select>
           </div>
           <div>
-            <p>How Long</p>
-            <label for="time">Choose a time:</label>
+            <label for="time">How Long:</label>
             <select name="" id="time">
               <option value="">8:00 PM - 10 PM</option>
             </select>
           </div>
           <div>
-            <p>How Many People</p>
-            <label for="guests">Choose number of guests:</label>
+            <label for="guests">How Many People</label>
             <select name="" id="guests">
               <option value="">Number of guests</option>
             </select>
