@@ -22,20 +22,20 @@
     <header>
       <nav class="navBar outerWrapper">
         <div class="navBarLeft">
-          <a>Food Menu</a>
-          <a>Events</a>
-          <a>Reviews</a>
+          <a href="#">Food Menu</a>
+          <a href="#">Events</a>
+          <a href="#">Reviews</a>
         </div>
         <h2>test</h2>
         <div class="navBarRight">
           <p><span>Hotline:</span>(406) 555-0120</p>
-          <i class="fas fa-bars"></i>
+          <button class="hamburger"><i class="fas fa-bars"></i></button>
         </div>
       </nav>
       <div class="headerImageContainer outerWrapper">
         <div class="headerText">
           <h1>"Salry Squid"</h1>
-          <h1>A Treditional Trusted</h1>
+          <h1>A Traditional Trusted</h1>
           <h1>Food Corner</h1>
         </div>
         <img
@@ -46,15 +46,21 @@
         <div class="headerBox innerWrapper">
           <div>
             <p>When</p>
-            <select name="" id=""></select>
+            <select name="" id="">
+              <option value="">05 June 2021</option>
+            </select>
           </div>
           <div>
             <p>How Long</p>
-            <select name="" id=""></select>
+            <select name="" id="">
+              <option value="">8:00 PM - 10 PM</option>
+            </select>
           </div>
           <div>
             <p>How Many People</p>
-            <select name="" id=""></select>
+            <select name="" id="">
+              <option value="">Number of guests</option>
+            </select>
           </div>
           <div>
             <button>Apply Reservations</button>
@@ -87,32 +93,77 @@
           </div>
         </div>
       </section>
-      <section class="popular innerWrapper">
+      <section class="popular outerWrapper">
         <div class="popularBar">
           <h2>Popular Foods</h2>
-          <button>&larr;</button>
-          <button>&rarr;</button>
+          <div class="popularButtons">
+            <button>&larr;</button>
+            <button>&rarr;</button>
+          </div>
         </div>
-        <div class="popularImages">
-          <div>
-            <img src="" alt="" />
+        <ul class="popularImages">
+          <li>
+            <img src="./assets/download (2).jpg" alt="" />
             <div>
               <h3>Cheese Pizza (12")</h3>
               <h3>$110.00</h3>
             </div>
-          </div>
-          <div>
-            <img src="" alt="" />
+          </li>
+          <li>
+            <img
+              src="./assets/slice-french-toast-white-background-two-slice-french-toast-white-background-164062960.jpg"
+              alt=""
+            />
             <div>
               <h3>Cheese Pizza (12")</h3>
               <h3>$110.00</h3>
             </div>
-          </div>
-          <div>
-            <img src="" alt="" />
+          </li>
+          <li>
+            <img
+              src="./assets/turkey-sandwich-white-background-11622814.jpg"
+              alt=""
+            />
             <div>
               <h3>Cheese Pizza (12")</h3>
               <h3>$110.00</h3>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="desserts">
+        <div class="dessersContainer">
+          <div class="dessertsTitle innerWrapper">
+            <h2>Enjoy The Food Menu Whatever You Like</h2>
+            <ul>
+              <li>Drinks</li>
+              <li class="highlight">Desserts</li>
+              <li>Itallian</li>
+              <li>Japanese</li>
+              <li>Mexican</li>
+              <li>Special Dishes</li>
+            </ul>
+          </div>
+          <div class="dessertsImageContainer outerWrapper">
+            <div class="dessertsImage">
+              <p>Chocolatey Dessert Ice Cream</p>
+              <p><span>$60.00</span></p>
+              <img src="" alt="" />
+            </div>
+            <div class="dessertsImage">
+              <p>Vanilla Creamy Ice Cream</p>
+              <p><span>$40.00</span></p>
+              <img src="" alt="" />
+            </div>
+            <div class="dessertsImage">
+              <p>Black Barries Ice Cream</p>
+              <p><span>$55.00</span></p>
+              <img src="" alt="" />
+            </div>
+            <div class="dessertsImage">
+              <p>Strawberry Ice Cream</p>
+              <p><span>$80.00</span></p>
+              <img src="" alt="" />
             </div>
           </div>
         </div>
