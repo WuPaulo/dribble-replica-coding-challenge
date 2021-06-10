@@ -34,7 +34,10 @@
         <h2 class="highlight">LOGO</h2>
         <div class="navBarRight">
           <p><span>Hotline:</span><span class="bolded">(406) 555-0120</span></p>
-          <button class="hamburger"><i class="fas fa-bars"></i></button>
+          <a href="#"
+            ><button aria-label="hamburger menu" class="hamburger">
+              <i class="fas fa-bars"></i></button
+          ></a>
         </div>
       </nav>
       <div class="headerImageContainer outerWrapper">
@@ -45,25 +48,28 @@
         </div>
         <img
           class="tableImage"
-          src="assets/jez-timms-8muUTAmcWU4-unsplash.jpg"
-          alt=""
+          src="assets/lamp.jpg"
+          alt="Picture of lamp on table"
         />
         <div class="headerBox innerWrapper">
           <div>
             <p>When</p>
-            <select name="" id="">
+            <label for="date">Choose a date</label>
+            <select name="" id="date">
               <option value="">05 June 2021</option>
             </select>
           </div>
           <div>
             <p>How Long</p>
-            <select name="" id="">
+            <label for="time">Choose a time:</label>
+            <select name="" id="time">
               <option value="">8:00 PM - 10 PM</option>
             </select>
           </div>
           <div>
             <p>How Many People</p>
-            <select name="" id="">
+            <label for="guests">Choose number of guests:</label>
+            <select name="" id="guests">
               <option value="">Number of guests</option>
             </select>
           </div>
@@ -79,8 +85,8 @@
           <div class="aboutImageContainer">
             <img
               class="bakery"
-              src="./assets/trayan-PAaNpxHFCMw-unsplash.jpg"
-              alt=""
+              src="./assets/cafe.jpg"
+              alt="picture of the inside of a cafe"
             />
           </div>
           <div class="aboutText">
@@ -105,16 +111,17 @@
         <div class="popularBar">
           <h2>Popular Foods</h2>
           <div class="popularButtons">
-            <button>&larr;</button>
-            <button>&rarr;</button>
+            <button aria-label="backwords arrow to go to previous section">
+              &larr;
+            </button>
+            <button aria-label="forwards arrow to go to next section">
+              &rarr;
+            </button>
           </div>
         </div>
         <ul class="popularImages">
           <li>
-            <img
-              src="./assets/turkey-sandwich-white-background-11622814.jpg"
-              alt=""
-            />
+            <img src="./assets/sandwich.jpg" alt="picture of a ham sandwich" />
             <div class="popularText">
               <div>
                 <h3>Cheese Pizza (12")</h3>
@@ -128,10 +135,7 @@
             </div>
           </li>
           <li>
-            <img
-              src="./assets/slice-french-toast-white-background-two-slice-french-toast-white-background-164062960.jpg"
-              alt=""
-            />
+            <img src="./assets/frenchToast.jpg" alt="picture of french toast" />
             <div class="popularText">
               <div>
                 <h3>Cheese Bread & Boild Egg</h3>
@@ -145,10 +149,7 @@
             </div>
           </li>
           <li>
-            <img
-              src="./assets/turkey-sandwich-white-background-11622814.jpg"
-              alt=""
-            />
+            <img src="./assets/sandwich.jpg" alt="picture of ham sandwich" />
             <div class="popularText">
               <div>
                 <h3>Creamy Sub Sandwich</h3>
@@ -177,33 +178,27 @@
           <div class="dessertsImageContainer outerWrapper">
             <div class="dessertsImage">
               <img
-                src="./assets/najla-cam-f5WcXes7b_0-unsplash (1).jpg"
-                alt=""
+                src="./assets/iceCream.jpg"
+                alt="picture of chocolate icecream"
               />
               <p>Chocolatey Dessert Ice Cream</p>
               <p><span>$60.00</span></p>
             </div>
             <div class="dessertsImage down">
-              <img
-                src="./assets/ian-dooley-TLD6iCOlyb0-unsplash (1).jpg"
-                alt=""
-              />
+              <img src="./assets/cone.jpg" alt="picture of icecream" />
               <p>Vanilla Creamy Ice Cream</p>
               <p><span>$40.00</span></p>
             </div>
             <div class="dessertsImage">
               <img
-                src="./assets/najla-cam-f5WcXes7b_0-unsplash (1).jpg"
-                alt=""
+                src="./assets/iceCream.jpg"
+                alt="picture of chocolate icecream"
               />
               <p>Black Barries Ice Cream</p>
               <p><span>$55.00</span></p>
             </div>
             <div class="dessertsImage down">
-              <img
-                src="./assets/ian-dooley-TLD6iCOlyb0-unsplash (1).jpg"
-                alt=""
-              />
+              <img src="./assets/cone.jpg" alt="picture of icecream" />
               <p>Strawberry Ice Cream</p>
               <p><span>$80.00</span></p>
             </div>
