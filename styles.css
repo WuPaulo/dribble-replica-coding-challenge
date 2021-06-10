@@ -12,6 +12,7 @@ html {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  font-size: 125%;
 }
 
 body {
@@ -21,10 +22,10 @@ body {
 .outerWrapper {
   margin: 0 auto;
   max-width: 1280px;
-  width: 80%;
+  width: 90%;
 }
 
-.InnerWrapper {
+.innerWrapper {
   margin: 0 auto;
   max-width: 1280px;
   width: 70%;
@@ -32,37 +33,47 @@ body {
 
 /* header styling */
 
+.navBar {
+  margin: 30px auto;
+}
+
+.navBarRight,
+.navBarleft,
+.navBar,
 .menuButton {
-  transform: translateX(-50%);
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
-  width: 50px;
-  cursor: pointer;
 }
 
-.menuBurger {
-  width: 50px;
-  height: 3px;
-  background: rgb(0, 0, 0);
-  transition: all 0.5s ease-in-out;
+.navBarLeft a,
+.navBarRight p {
+  margin-right: 30px;
 }
 
-.menuBurger::before,
-.menuBurger::after {
-  content: "";
+.navBar {
+  justify-content: space-between;
+}
+
+.tableImage {
+  max-width: 100%;
+}
+
+.headerImageContainer {
+  position: relative;
+}
+
+.headerText {
   position: absolute;
-  width: 50px;
-  height: 3px;
-  background: rgb(0, 0, 0);
-  transition: all 0.5s ease-in-out;
+  color: white;
+  text-align: center;
+  left: 50%;
+  top: 30%;
+  width: 100%;
+  transform: translateX(-50%);
+  font-size: 1.4rem;
 }
 
-.menuBurger::before {
-  transform: translateY(-12px);
-}
+/* about section styling */
 
-.menuBurger::after {
-  transform: translateY(12px);
+.bakery {
+  max-width: 100%;
 }
